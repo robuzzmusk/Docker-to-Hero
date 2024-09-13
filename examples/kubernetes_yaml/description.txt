@@ -1,0 +1,22 @@
+deployment.yaml
+│
+├── service.yaml
+│
+├── configmap.yaml
+│
+├── secret.yaml
+│
+├── ingress.yaml
+│
+├── role.yaml
+│
+├── rolebinding.yaml
+│
+├── clusterrole.yaml
+│
+├── clusterrolebinding.yaml
+│
+├── networkpolicy.yaml
+│
+└── podsecuritypolicy.yaml (or PodSecurity Standards)
+

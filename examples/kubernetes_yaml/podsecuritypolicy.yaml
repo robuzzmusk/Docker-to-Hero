@@ -1,0 +1,21 @@
+apiVersion: policy/v1
+kind: PodSecurityPolicy
+metadata:
+  name: restricted
+spec:
+  privileged: false
+  allowedCapabilities: []
+  volumes:
+  - configMap
+  - secret
+  - emptyDir
+  - projected
+  - downwardAPI
+  - nfs
+  - persistentVolumeClaim
+  hostNetwork: false
+  hostPorts:
+  - min: 0
+    max: 65535
+  ...
+
